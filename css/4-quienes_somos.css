@@ -54,6 +54,7 @@
     text-align: center;
     color: var(--fuente-rosa);
     font-weight: 700;
+    font-size: 25px;
     margin-top: 1rem;
     margin-bottom: .5rem;
 }
@@ -61,6 +62,7 @@
 .personal_p2{
     text-align: center;
     color: var(--fuente-ceniza-oscuro);
+    font-size: 23px;
     margin-bottom: .5rem;    
 }
 
