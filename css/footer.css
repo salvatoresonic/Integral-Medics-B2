@@ -20,6 +20,10 @@
     margin: 2rem 1rem;
 }
 
+.footer__logo{
+    width: 20rem;
+}
+
 .footer__navegacion {
     color: var(--fuente-rosa);
     font: var(--open-sans);
