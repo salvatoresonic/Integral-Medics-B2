@@ -21,7 +21,7 @@
 }
 
 .footer__logo{
-    width: 20rem;
+    width: 17rem;
 }
 
 .footer__navegacion {
@@ -64,9 +64,15 @@
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
+    .footer__logo{
+        width: 70%;
+    }
+    
     .footer__navegacion {
-        padding-top: 2rem;
+        padding-top: 1rem;
+        line-height: 3rem;
         
    }
+
 }
