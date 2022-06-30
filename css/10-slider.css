@@ -62,16 +62,21 @@
 
 .caja__container{
     position: absolute;
-    top: 62%;
+    top: 70%;
     /* left: 10px; */
     display: flex;
     /* justify-content: space-evenly; */
 }
 
 .caja__box{
-    margin-right: 3rem;
     margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     width: 230px;
+    height: 6rem;
     font-size: auto;
     font-family: var(--montserrat);
     background: rgba(105, 15, 152, 0.605);
@@ -84,8 +89,9 @@
 .caja__titulo{
     font-size: 1.2em;
     font-weight: 500;
-    padding: .5em 0 1em 0;
+    padding: 0em 0 1em 0;
     color: rgb(218, 218, 218);
+    text-align: center;
 }
 
 .caja__texto{
@@ -100,7 +106,7 @@
 
 .caja__boton{
     text-align: center;
-    display: block;
+    
     color: rgb(218, 218, 218);
     width: 60%;
     max-width: 350px;
@@ -108,7 +114,7 @@
     padding: .5rem .5rem .5rem .5rem;
     border: 1px solid rgb(218, 218, 218);
     border-radius: 5px;
-    margin-top: 1em;
+    
     /* font-weight: 400; */
     opacity: 80%;
 }

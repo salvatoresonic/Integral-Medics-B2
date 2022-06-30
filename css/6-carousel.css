@@ -85,7 +85,7 @@
 }
 
 .carousel__elemento:hover{
-    transform: scale(1.09);
+    transform: scale(1.03);
     transition: .8s;
     /* box-shadow: 0px 0px 10px 2px var(--fuente-rosa); */
     transition: .5s ease;
