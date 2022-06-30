@@ -74,7 +74,7 @@
     .sobre_nosotros {
         display: flex;
         background:linear-gradient(180deg,var(--azul-claro), var(--background-azul-claro), white);
-        padding-top: 4rem;
+        padding-top: 8rem;
         padding-left: 6rem;
         padding-right: 6rem;
         align-items: center;

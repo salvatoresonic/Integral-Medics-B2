@@ -4,7 +4,7 @@
     align-items: center;
     color: var(--fuente-ceniza-oscuro);
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 6rem;
     padding-bottom: 2rem;
     background:linear-gradient(180deg, white, var(--azul-claro),white) ;
 
@@ -31,6 +31,7 @@
     line-height: 1.5;
     margin-bottom: 2rem;
     font-weight: 400;
+    color: black;
 }
 
 .institucional__contacto {
