@@ -149,7 +149,8 @@
     .caja__box{
         margin-top: 1rem;
         margin-bottom: 1rem;
-        margin-left: 3.5rem;
+        margin-left: 5rem;
+        margin-right: 0rem;
         background: rgba(105, 15, 152, .85);
 
     }

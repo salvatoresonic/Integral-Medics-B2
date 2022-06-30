@@ -103,6 +103,10 @@
 
 
 @media screen and (max-width: 400px) {
+    
+    .carousel__titulo{
+        font-size: 1.5rem;
+    }
     .carousel__descrip{
         font-size: 1rem;
         padding: 0rem 1rem 0rem 1rem;   
@@ -126,5 +130,10 @@
     .carousel__anterior{
         left: 30px;
     }
-    
+    .carousel__elemento{
+        margin-bottom: .5rem;
+    }
+    .carousel__indicadores{
+        padding-bottom: 1rem;
+    }
 }

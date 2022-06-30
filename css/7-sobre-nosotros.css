@@ -45,7 +45,6 @@
 
 @media screen and (max-width: 400px) {
     .sobre_nosotros__contenido{
-        display: flex;
         flex-wrap: wrap;
     }
     .sobre_nosotros__titulo{
@@ -61,10 +60,20 @@
     }
     .sobre_nosotros__imagen{
         width: 100%;
+        border-radius: 5%;
     }
     .head__ul{
         display: flex;
         flex-direction: column;
+    }
+  
+    .sobre_nosotros__texto{
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    .sobre_nosotros__titulo{
+        font-size: 1.5rem;
+        text-align: center;
     }
    
 }
@@ -119,8 +128,3 @@
     }
 }
 
-@media screen and (max-width: 360px) {
-    .sobre_nosotros__imagen {
-        max-width: 300px;
-    }
-}
