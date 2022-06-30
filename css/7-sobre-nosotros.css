@@ -15,13 +15,15 @@
 }
 
 .sobre_nosotros__texto {
+     
     text-align: justify;
     text-justify: inter-word;
     /* text-justify: distribute; */
     font-size: 21px;
     line-height: normal;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
+    padding: 0rem 4rem 0rem 0rem;
+    
+    
 
 }
 
@@ -61,6 +63,7 @@
     .sobre_nosotros__imagen{
         width: 100%;
         border-radius: 5%;
+        margin-top: 1rem;
     }
     .head__ul{
         display: flex;
@@ -70,6 +73,7 @@
     .sobre_nosotros__texto{
         font-size: 1rem;
         line-height: 30px;
+        padding: 0;
     }
     .sobre_nosotros__titulo{
         font-size: 1.5rem;
@@ -89,6 +93,8 @@
         align-items: center;
     }
     .sobre_nosotros__contenido {
+        display: flex;
+        align-items: center;
         margin-right: 1rem;
     }
     .sobre_nosotros__titulo {

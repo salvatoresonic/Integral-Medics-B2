@@ -102,7 +102,6 @@
 
 /* Aqui empieza el css de la pestaña quienes somos */
 .sobre_nosotros__quienes {
-    display: flex;
     background:linear-gradient(180deg,white, var(--azul-claro), white);
     padding-top: 4rem;
     padding-left: 6rem;
@@ -255,7 +254,7 @@
 
 
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
     .sobre_nosotros__quienes{
         display: block;
         padding: 2.5rem;
