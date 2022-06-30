@@ -30,10 +30,11 @@
 }
 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
     
     .llamada__titulo{
-        font-size: 1.75rem;
+        font-size: 1.5rem;
+        margin-bottom: 0rem;
     }
 }
 

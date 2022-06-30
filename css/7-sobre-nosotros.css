@@ -43,7 +43,7 @@
 }
 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
     .sobre_nosotros__contenido{
         display: flex;
         flex-wrap: wrap;

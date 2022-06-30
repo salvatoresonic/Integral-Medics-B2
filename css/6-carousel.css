@@ -102,11 +102,21 @@
 }
 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
     .carousel__descrip{
         font-size: 1rem;
-        padding: 0rem 1rem 0rem 1rem;
+        padding: 0rem 1rem 0rem 1rem;   
+    }
+
+    .carousel__anterior,
+    .carousel__siguiente{
+        top: calc(60% - 1px);
+    }
+
+    .carousel__foto{
         
+        height: 22rem;
+        width: 22rem;
     }
 
     .carousel__siguiente{

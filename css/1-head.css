@@ -89,10 +89,14 @@
 }
 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
     .head__navegacion{
         display: flex;
         flex-direction: column;
+    }
+
+    .head__logo{
+        width: 100%;
     }
 
     .head__ul{
@@ -120,6 +124,7 @@
 
 
 @media screen and (min-width: 1024px) {
+    
     .head {
         flex-direction: row;
         justify-content: space-between;
