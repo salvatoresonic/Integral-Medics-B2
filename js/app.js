@@ -17,16 +17,16 @@ window.addEventListener('load', function(){
               breakpoint: 650,
               settings: {
                 // Set to `auto` and provide item width to adjust to viewport
-                slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToShow: 1,
+                slidesToScroll: 1,
                 duration: 2.25
               }
             },{
               // screens greater than >= 900px
               breakpoint: 900,
               settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 2,
+                slidesToScroll: 2,
                 duration: 2.25
               }
             },{

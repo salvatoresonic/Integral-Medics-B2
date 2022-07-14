@@ -105,7 +105,11 @@
 }
 
 @media screen and (max-width: 720px){
-    
+    .institucional{
+        padding-top: 2rem;
+    }
+
+
     .institucional__mapa{
         max-width: 100%
     }

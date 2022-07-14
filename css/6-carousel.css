@@ -137,3 +137,12 @@
         padding-bottom: 1rem;
     }
 }
+
+
+@media screen and (max-width: 700px) {
+    .carousel__titulo{
+        font-size: 2rem;
+    }
+
+    
+}

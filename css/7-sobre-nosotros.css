@@ -83,6 +83,19 @@
 }
 
 
+@media screen and (max-width: 700px){
+    .sobre_nosotros__texto{
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .sobre_nosotros__imagen{
+        
+        width: 100%;
+    }
+    
+}
+
+
 @media screen and (min-width: 1024px) {
     .sobre_nosotros {
         /* display: flex; */
