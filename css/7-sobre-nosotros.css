@@ -19,9 +19,9 @@
     text-align: justify;
     text-justify: inter-word;
     /* text-justify: distribute; */
-    font-size: 21px;
+    font-size: 1.5rem;
     line-height: normal;
-    padding: 0rem 4rem 0rem 0rem;
+    padding: 1rem 5rem 1rem 0rem
     
     
 
@@ -85,7 +85,7 @@
 
 @media screen and (min-width: 1024px) {
     .sobre_nosotros {
-        display: flex;
+        /* display: flex; */
         background:linear-gradient(180deg,var(--azul-claro), var(--background-azul-claro), white);
         padding-top: 8rem;
         padding-left: 6rem;
@@ -98,7 +98,8 @@
         margin-right: 1rem;
     }
     .sobre_nosotros__titulo {
-        text-align: left;
+        text-align: center;
+        padding: 2rem;
     }
     .sobre_nosotros__texto--division {
         border-bottom: 1px solid var(--cinza-medio);
