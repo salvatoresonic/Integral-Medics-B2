@@ -70,23 +70,24 @@
     transition: .8s;
 }
 
-#whats_head:hover{
-    transform: scale(1.1);
 
-}
-.head__enlace:nth-child(-n+4):hover{
-    padding: .3rem .3rem .3rem .3rem;
-    border-radius: 30px;
-    color: #FFF;
-	background-color: var(--fuente-rosa);
-	transform: scale(1);
-}
+/* Animacion "parpadeo" del logo de whats app */
+@keyframes yourAnimation {
+    0.0%{
+    }
+    50.2%{
+    transform: scale(1.25);
+    }
+    }
+    
+    
+    /* Add the animation: property to whichever element you want to animate */
+    #whats_head{
+    animation: yourAnimation 2s ease 0s infinite normal none;
+    }
 
 
 
-.head__enlace.active{
-    background-color: red;
-}
 
 
 @media screen and (max-width: 400px) {

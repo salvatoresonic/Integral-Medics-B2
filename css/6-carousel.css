@@ -28,7 +28,7 @@
     text-align: center;
     line-height: 30px;
     margin: 0 auto 1rem;
-    padding: 0rem 5rem 0rem 5rem;
+    padding: 0rem 5rem 2rem 5rem;
     /* color: var(--fuente-ceniza-oscuro); */
 }
 
@@ -68,8 +68,8 @@
 }
 
 .carousel__foto{
-    height: 30rem;
-    width: 32rem;
+    height: 28rem;
+    width: 30rem;
     border-radius: 11%;
     box-shadow: 10px 10px 21px -3px rgba(97,95,95,0.59);
 }
