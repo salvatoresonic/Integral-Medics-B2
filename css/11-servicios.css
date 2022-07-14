@@ -56,6 +56,50 @@ align-items: center;
     font-size: 23px;
 }
 
+/* Aquí empieza el codigo para los GRIDS de los servicios */
+.container__servicios {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.7fr 0.9fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "servicios__descripcion servicios__descripcion"
+      "servicios__lista servicios__img";
+    font-size: 21px;
+    line-height: 2rem;
+    text-align: justify;
+  }
+  
+.servicios__descripcion { 
+    grid-area: servicios__descripcion;
+ 
+}
+  
+.servicios__lista { 
+    grid-area: servicios__lista; 
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    line-height: 2rem;
+}
+  
+.servicios__img { 
+    grid-area: servicios__img;
+    width: 100%; 
+    padding-top: 0rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.servicios__imagen{
+    width: 37rem;
+    border-radius: 5%;
+}
+  
 
 
 
@@ -92,11 +136,39 @@ align-items: center;
 }
 
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
     .servicios__header{
         width: 100%;
+        margin-left: 0%;
+        
     }
     #servicios__header{
         margin: 0rem;
+    }
+
+    .servicios__titulo{
+        text-align: center;
+        padding-left: 0rem;
+    }
+    .container__servicios{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+
+    .servicios__conte{
+        padding: 2.5rem;
+    }
+    .servicios__lista{
+        padding: 0rem 0rem 2rem 2rem;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .servicios__texto{
+        font-size: 1.2rem;
+    }
+    .servicios__imagen{
+        width: 100%;
     }
 }
