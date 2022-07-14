@@ -19,7 +19,7 @@ p {
 
 .waves__img{
     width: 75%;
-    margin-top: 5rem;
+    
 }
 
 .header {
