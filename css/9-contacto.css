@@ -12,10 +12,23 @@ form{
     text-align: center;
 }
 
+.contacto__header{
+    width: 50%;
+    background-image: url("../img/servicios_carousel/medicina-servicios.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    object-fit: fill;
+    margin-top: 3rem;
+}
+
+
 .contacto__objetos{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     margin-top: 2rem;
+    width: 50%;
+
 }
 
 .contacto__titulo {
@@ -41,10 +54,10 @@ form{
 }
 
 .contacto__imagen{
-    height: 36rem;
-    border-radius: 10%;
-    margin-right: 3rem;
-    padding: 0.5em;
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    
 }
 
 .contacto__descrip{
@@ -124,4 +137,19 @@ form label, form legend{
     border-color: var(--boton-rojo);
     margin-top: 1.25rem;
 
+}
+
+@media screen and (max-width: 400px) {
+    .contacto__ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto__header{
+        width: 100%;
+    }
+
+    .contacto__objetos{
+        width: 100%;
+    }
 }
