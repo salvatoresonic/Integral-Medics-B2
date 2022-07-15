@@ -49,7 +49,7 @@
 
 @media screen and (min-width: 1024px) {
     .diferenciales {
-        background:linear-gradient(180deg, white, var(--background-azul-claro)) ;
+        background:linear-gradient(180deg, white, var(--background-azul-claro), white) ;
         
     }
     .diferenciales__lista {

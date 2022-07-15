@@ -252,13 +252,178 @@
 }
 
 
+/* Aqui inicia el codigo css para el carousel de qiuenes somos */
+
+.carousel1{
+    background:linear-gradient(180deg,white, var(--background-azul-claro),  white) 
+}
+
+
+.carousel__contenedor1{
+    padding: 3rem 0 0 0;
+    position: relative;     
+}
+
+.carousel__titulo1{
+    color: var(--fuente-rosa);
+    /* text-shadow: 5px 2px 2px rgba(105,15,142,0.38); */
+    
+    font-size: 1.75rem;
+    font-family: var(--montserrat) ;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    /* text-shadow: 7px 3px 6px rgba(105,15,142,0.47); */
+}
+
+.carousel__descrip1{
+    
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 auto 1rem;
+    padding: 0rem 5rem 2rem 5rem;
+    /* color: var(--fuente-ceniza-oscuro); */
+}
+
+.carousel__anterior1,
+.carousel__siguiente1{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(60% - 5px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    /* background: transparent; */
+    color: var(--fuente-ceniza-claro);
+    opacity: 80% ;
+}
+
+.carousel__anterior1:hover,
+.carousel__siguiente1:hover{
+
+    opacity: 100%;
+    transition: .4s;
+    color: white;
+    background-color: var(--background-rosa-claro);
+    /* border: solid  .2px var(--fuente-ceniza-claro); */
+}
+
+.carousel__anterior1{
+    left: 50px;
+}
+
+.carousel__siguiente1{
+    right: 50px;
+}
+
+.carousel__foto1{
+    height: 28rem;
+    width: 30rem;
+    border-radius: 11%;
+    box-shadow: 10px 10px 21px -3px rgba(97,95,95,0.59);
+}
+
+
+.carousel__elemento1{
+    text-align: center;
+    margin: 2rem 1rem 2rem 1rem;
+    padding: .5rem 0rem 0rem .0rem;
+    opacity: 100%;
+    border-radius: 10%;
+    
+    
+}
+
+
+
+.carousel__indicadores1 .glider-dot:hover{
+    background: var(--fuente-rosa);
+    transition: .8s;
+
+}
+
+
+@media screen and (max-width: 400px) {
+    
+    .carousel__titulo1{
+        font-size: 1.5rem;
+    }
+    .carousel__descrip1{
+        font-size: 1.2rem;
+        padding: 0rem 1rem 0rem 1rem;   
+    }
+
+    .carousel__anterior1,
+    .carousel__siguiente1{
+        top: calc(60% - 1px);
+    }
+
+    .carousel__foto1{
+        
+        height: 22rem;
+        width: 22rem;
+    }
+
+    .carousel__siguiente1{
+        right: 30px;
+
+    }
+    .carousel__anterior1{
+        left: 30px;
+    }
+    .carousel__elemento1{
+        margin-bottom: .5rem;
+    }
+    .carousel__indicadores1{
+        padding-bottom: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .carousel__titulo1{
+        font-size: 2rem;
+    }
+
+    
+}
+
+
+/* Aquí termina el codigo css para el carousel de quienes somos */
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Aqui inicia el css del slider con overlay informativo para cada dr */
 
 /* Container needed to position the overlay. Adjust the width as needed */
+.quienes__carousel{
+    display: flex;
+    padding: 0rem 2rem 0rem 2rem ;
+    justify-content: center;
+}
+
 .quienes__container{
     box-sizing: border-box;
     position: relative;
-    width: 50%;
+    width: 80%;
+    
     /* max-width: 900px; */
 }
 
@@ -267,8 +432,9 @@
     box-sizing: border-box;
     display: block;
     width: 100%;
-    height: auto;
+    height: 500px;
     border-radius: 7%;
+    
 
 }
 
@@ -278,17 +444,22 @@
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
-    background: rgba(45, 2, 85, 0.5); /* Black see-through */
+    background: rgba(72, 26, 112, 0.75); /* Black see-through */
     color: #ececec;
     width: 100%;
     height: 100%;
-    transition: .5s ease;
+    transition: .7s ease;
     opacity:0;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 400;
-    padding: 5rem 2.5rem 2rem 2.5rem;
-    text-align: center;
-    align-items: center;
+    font-family: sans-serif;
+    padding: 2rem 2rem 2rem 2rem;
+    
+    text-align: left;
+    display: flex;  /* Para alinear el parrafo al centro verticalmente*/
+    justify-content: center; /* Para alinear el parrafo al centro verticalmente*/
+    align-items: center; /* Para alinear el parrafo al centro verticalmente*/
+    
     border-radius: 7%;
     
 }
