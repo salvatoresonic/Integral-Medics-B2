@@ -63,7 +63,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .institucional{
         padding-top: 1rem;
     }
@@ -101,10 +101,6 @@
         display: inline-block;
     }
 
-
-}
-
-@media screen and (max-width: 720px){
     .institucional{
         padding-top: 2rem;
     }
@@ -116,6 +112,7 @@
     
 
 }
+
 
 
 @media screen and (min-width: 1024px) {

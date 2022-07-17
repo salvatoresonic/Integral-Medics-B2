@@ -47,6 +47,13 @@
 }
 
 
+
+@media screen and (max-width: 420px) {
+    .diferenciales__item{
+     padding: 1em 1em 1em 1em;
+    }
+ }
+ 
 @media screen and (min-width: 1024px) {
     .diferenciales {
         background:linear-gradient(180deg, white, var(--background-azul-claro), white) ;
@@ -55,10 +62,4 @@
     .diferenciales__lista {
         justify-content: space-around;
             }
-}
-
-@media screen and (max-width: 400px) {
-   .diferenciales__item{
-    padding: 1em 1em 1em 1em;
-   }
 }

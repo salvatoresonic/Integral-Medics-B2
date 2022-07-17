@@ -45,6 +45,18 @@
     
 }
 
+@media screen and (max-width: 420px) {
+    .footer__logo{
+        width: 70%;
+    }
+    
+    .footer__navegacion {
+        padding-top: 1rem;
+        line-height: 3rem;
+        
+   }
+
+}
 
 @media screen and (min-width: 1024px) {
     .footer {
@@ -64,15 +76,3 @@
 }
 
 
-@media screen and (max-width: 400px) {
-    .footer__logo{
-        width: 70%;
-    }
-    
-    .footer__navegacion {
-        padding-top: 1rem;
-        line-height: 3rem;
-        
-   }
-
-}

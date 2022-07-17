@@ -139,7 +139,7 @@ form label, form legend{
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .contacto__ul{
         display: flex;
         flex-direction: column;

@@ -142,7 +142,7 @@ align-items: center;
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .servicios__header{
         width: 100%;
         margin-left: 0%;
@@ -155,6 +155,7 @@ align-items: center;
     .servicios__titulo{
         text-align: center;
         padding-left: 0rem;
+        margin-top: 3rem;
     }
     .container__servicios{
         display: flex;
