@@ -350,63 +350,6 @@
 }
 
 
-@media screen and (max-width: 400px) {
-    
-    .carousel__titulo1{
-        font-size: 1.5rem;
-    }
-    .carousel__descrip1{
-        font-size: 1.2rem;
-        padding: 0rem 1rem 0rem 1rem;   
-    }
-
-    .carousel__anterior1,
-    .carousel__siguiente1{
-        top: calc(60% - 1px);
-    }
-
-    .carousel__foto1{
-        
-        height: 22rem;
-        width: 22rem;
-    }
-
-    .carousel__siguiente1{
-        right: 30px;
-
-    }
-    .carousel__anterior1{
-        left: 30px;
-    }
-    .carousel__elemento1{
-        margin-bottom: .5rem;
-    }
-    .carousel__indicadores1{
-        padding-bottom: 1rem;
-    }
-}
-
-
-@media screen and (max-width: 700px) {
-    .carousel__titulo1{
-        font-size: 2rem;
-    }
-
-    
-}
-
-
-/* Aquí termina el codigo css para el carousel de quienes somos */
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -471,7 +414,57 @@
 
 
 
+
 @media screen and (max-width: 400px) {
+    .quienes__carousel{
+        padding: 0rem;
+        width: 100%;
+        
+    }
+
+    .quienes__container{
+        width: 100%;
+    }
+
+    .overlay{
+        font-size: .85rem;
+        padding: 3.1rem;
+        text-align: justify;
+    }
+  
+    .carousel__titulo1{
+        font-size: 1.5rem;
+    }
+    .carousel__descrip1{
+        font-size: 1.2rem;
+        padding: 0rem 1rem 0rem 1rem;   
+    }
+
+    .carousel__anterior1,
+    .carousel__siguiente1{
+        top: calc(60% - 1px);
+    }
+
+    .carousel__foto1{
+        
+        height: 22rem;
+        width: 10rem;
+    }
+
+    .carousel__siguiente1{
+        right: 30px;
+
+    }
+    .carousel__anterior1{
+        left: 30px;
+    }
+    .carousel__elemento1{
+        margin-bottom: .5rem;
+    }
+    .carousel__indicadores1{
+        padding-bottom: 1rem;
+    }
+
     .sobre_nosotros__quienes{
         display: block;
         padding: 2.5rem;
@@ -479,4 +472,31 @@
     .slider1{
         height: 400px;
     }
+
 }
+
+
+@media screen and (max-width: 700px) {
+    .carousel__titulo1{
+        font-size: 2rem;
+    }
+
+    
+}
+
+
+/* Aquí termina el codigo css para el carousel de quienes somos */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
