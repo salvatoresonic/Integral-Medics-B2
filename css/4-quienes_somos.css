@@ -398,7 +398,7 @@
     font-family: sans-serif;
     padding: 2rem 2rem 2rem 2rem;
     
-    text-align: left;
+    text-align: justify;
     display: flex;  /* Para alinear el parrafo al centro verticalmente*/
     justify-content: center; /* Para alinear el parrafo al centro verticalmente*/
     align-items: center; /* Para alinear el parrafo al centro verticalmente*/
@@ -427,7 +427,7 @@
     }
 
     .overlay{
-        font-size: .85rem;
+        font-size: .75rem;
         padding: 3.1rem;
         text-align: justify;
     }
