@@ -77,6 +77,16 @@ body{
 
 }
 
+@media screen and (max-width: 420px) {
+    .btn__comienza{
+    width: 40%;
+    }
+
+    
+
+}
+
+
 @media screen and (min-width: 1024px) {
     .container {
         padding-left: calc((100% - 1240px)/2);

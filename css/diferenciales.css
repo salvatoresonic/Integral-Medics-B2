@@ -4,8 +4,8 @@
 }
 
 .diferenciales__lista {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;  
+    flex-wrap: wrap;  
     justify-content: space-evenly;
 }
 
