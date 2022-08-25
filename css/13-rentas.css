@@ -128,7 +128,7 @@
 
   .carousel__anterior__rentas,
   .carousel__siguiente__rentas {
-    top: calc(70% - 1px);
+    top: calc(75% - 1px);
   }
 }
 
