@@ -45,6 +45,21 @@
   opacity: 90%;
 }
 
+.caja__boton__rentas1 {
+  text-align: center;
+  color: var(--fuente-rosa);
+  font-size: 1em;
+  font-weight: 300;
+  width: 100%;
+  max-width: 550px;
+  box-sizing: border-box;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: 1.5px solid var(--fuente-rosa);
+  border-radius: 5px;
+  /* font-weight: 400; */
+  opacity: 90%;
+}
+
 .caja__boton__rentas:hover {
   transform: scale(2);
   color: rgb(218, 218, 218);
@@ -66,7 +81,7 @@
   width: 30px;
   height: 30px;
   border: none;
-  top: calc(60% - 1px);
+  top: calc(70% - 1px);
   cursor: pointer;
   line-height: 30px;
   text-align: center;
