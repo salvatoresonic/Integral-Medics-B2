@@ -7,6 +7,7 @@
         <title>Integral | Medics</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/0-base.css">
         <link rel="stylesheet" href="css/1-head.css">
@@ -39,10 +40,12 @@
                 <h2 id="head__titulo2" class="head__titulo"><i id="icon__head" class="fa-solid fa-phone"></i>  &nbsp Tel (44) 2605 4509</h2>
             </div>
     
-    
             <header class="head">
-                <img class="head__logo" src="img/Logos/A- LOGO-PRINCIPAL-COLOR.png" alt="logo de Integral Medics">    
-                <nav class="head__navegacion">
+                <img class="head__logo" src="img/Logos/A- LOGO-PRINCIPAL-COLOR.png" alt="logo de Integral Medics">  
+                <button class="abrir-menu" id="abrir"><i class="bi bi-list">   
+                </i></button>  
+                <nav class="head__navegacion" id="nav">
+                    <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
                     <ul class="head__ul" >
                         <li class="head__enlace"><a href="home.html">Inicio</a></li>
                         <li class="head__enlace"><a class="current" href="quienes-somos.html">Quiénes Somos</a></li>
@@ -53,6 +56,7 @@
                     
                 </nav>
             </header>
+          
     
         </div>
 
@@ -352,7 +356,7 @@
 
         <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
         <script src="https://kit.fontawesome.com/9033106c2d.js" crossorigin="anonymous"></script>
-        
+        <script src="js/menu.js"></script>
         <script src="js/app1.js"></script>
 
 
