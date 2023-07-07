@@ -71,6 +71,15 @@
 }
 
 
+/* Codigo de menu desplegable */
+
+.cerrar-menu,
+.abrir-menu{
+        display: none;
+
+    }
+
+
 /* Animacion "parpadeo" del logo de whats app */
 @keyframes yourAnimation {
     0.0%{
@@ -91,18 +100,29 @@
 
 
 @media screen and (max-width: 420px) {
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+   
+
     .head__navegacion{
+        /* display: none; */
         display: flex;
         flex-direction: column;
     }
 
+
     .head__logo{
-        width: 90%;
+        width: 75%;
     }
 
     .head__ul{
         display: flex;
         flex-direction: column;
+        
     }
 
     .head__titulo{
@@ -120,12 +140,37 @@
         margin-top: 1.2rem;
         margin-bottom: 1rem;
     }
-    
+
+    /* menu desplegable */
+
+    .cerrar-menu,
+    .abrir-menu{
+        border: none;
+        display: block;
+        font-size: 1.5rem;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 2.5rem;
+        color: var(--fuente-rosa);
+    }
+
+    .head__navegacion{
+        position: absolute;
+        z-index: 100;
+        top: 0rem;
+        right: 0;
+        bottom: 0;
+        background-color: var(--background-azul-claro);
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(105, 15, 152, 0.3);
+
+
+    }
 }
 
 @media screen and (max-width: 700px) {
     .head__ul{
-        padding-top: 2rem;
+        padding-top: .5rem;
         width: 100%;
         display: flex;
         align-items: center;
