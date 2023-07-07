@@ -92,6 +92,7 @@
     
     /* Add the animation: property to whichever element you want to animate */
     #whats_head{
+        
     animation: yourAnimation 2s ease 0s infinite normal none;
     }
 
@@ -163,12 +164,12 @@
         right: 0;
         bottom: 0;
         color: white;
-        background-color:   rgba(105, 15, 152, 0.95);;
+        background-color:   rgba(105, 15, 152, 0.85);;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(105, 15, 152, 0.3);
         opacity: 0;
         visibility: hidden;
-        transition: .75s;
+        transition: .85s;
 
 
     }
@@ -177,6 +178,8 @@
         opacity: 1;
         visibility: visible;
     }
+     
+   
 }
 
 @media screen and (max-width: 700px) {
